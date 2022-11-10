@@ -1,0 +1,36 @@
+@import '../index.scss';
+
+#navbar{
+	display: grid;
+	grid-template-columns: repeat(4, 10em);
+	position: fixed;
+	top:0;
+	justify-content: center;
+	width: 100vw;
+	text-align: center;
+	height: 2.5em;
+	font-size: 1.2em;
+}
+
+.navsection{
+	margin-top: 1.5em;
+	text-decoration: none !important;
+	color: $colorful !important;
+	font-weight: bold;
+}
+
+.navsection:hover, button:hover{
+	text-decoration: underline !important;
+}
+
+a{
+	text-decoration: none !important;
+	color: $pink !important;
+}
+
+@media screen and (max-device-width: 1100px) {
+	#navbar{
+		display: grid;
+		grid-template-columns: repeat(4, 25%);
+	}
+}

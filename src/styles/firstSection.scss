@@ -1,0 +1,58 @@
+@import '../index.scss';
+
+#firstSection{
+	background-color: $purple;
+	max-width: 100%;
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+	text-align: left;
+	min-height: 100vh;
+    color: $white;
+}
+
+#firstSection img{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    //-webkit-filter: grayscale(100%);
+    //filter: hue-rotate(100deg);
+    filter: grayscale(0%)
+}
+
+#firstSection h1{
+    font-size: 500%;
+    margin-left: 1em;
+}
+
+#firstSection h2{
+    margin-left: 10%;
+}
+
+#animation{
+    width: 40%;
+    height: 70%;
+}
+
+@media screen and (max-device-width: 1100px) {
+    #firstSection{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #firstSection h1{
+        margin-left: 0;
+    }
+
+    #firstSection h2{
+        margin-left: 0;
+    }
+
+    #firstSection img{
+        margin-top: 40%;
+        width: 100%;
+        height: 100%;
+    }
+}

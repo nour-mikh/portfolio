@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
+import './styles/navbar.scss';
+import './styles/firstSection.scss';
+import './styles/secondSection.scss';
+import './styles/thirdSection.scss';
+import './styles/fourthSection.scss'
 import App from './App';
+import Navigation from './Navigation';
+import FirstSection from './FirstSection';
+import SecondSection from './SecondSection';
+import ThirdSection from './ThirdSection';
+import FourthSection from './FourthSection';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navigation />
+    <FirstSection />
+    <SecondSection />
+    <ThirdSection />
+    <FourthSection />
   </React.StrictMode>
 );
 

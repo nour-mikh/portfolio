@@ -1,0 +1,33 @@
+$white : #E7E4D8;
+$darkBlue : #627975;
+$purple :  #31383f;
+$pink : #dd8ea4;
+$colorful: #fedd89;
+$dusty: #BDC9C9;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html{
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
